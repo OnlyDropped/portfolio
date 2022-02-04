@@ -41,6 +41,15 @@
   .about {
     padding: 20px 0 50px;
   }
+  .contact {
+    padding: 20px 0 10px;
+    &__title {
+      margin-bottom: 40px;
+    }
+    &__text {
+      margin-bottom: 40px;
+    }
+  }
 }
 
 @media (max-width: 375px) {
@@ -178,6 +187,17 @@
     &__text {
       font-size: 20px;
       margin-bottom: 20px;
+    }
+  }
+  .contact {
+    padding: 20px 0 10px;
+    &__text,
+    &__item-text {
+      margin-bottom: 20px;
+      font-size: 20px;
+    }
+    &__item{
+      margin-bottom: 10px;
     }
   }
 }

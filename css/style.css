@@ -446,6 +446,16 @@ body {
   .about {
     padding: 20px 0 50px;
   }
+
+  .contact {
+    padding: 20px 0 10px;
+  }
+  .contact__title {
+    margin-bottom: 40px;
+  }
+  .contact__text {
+    margin-bottom: 40px;
+  }
 }
 @media (max-width: 375px) {
   body {
@@ -586,5 +596,16 @@ body {
   .about__text {
     font-size: 20px;
     margin-bottom: 20px;
+  }
+
+  .contact {
+    padding: 20px 0 10px;
+  }
+  .contact__text, .contact__item-text {
+    margin-bottom: 20px;
+    font-size: 20px;
+  }
+  .contact__item {
+    margin-bottom: 10px;
   }
 }/*# sourceMappingURL=style.css.map */
