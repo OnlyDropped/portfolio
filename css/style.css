@@ -397,6 +397,10 @@ body {
 }
 
 @media (max-width: 768px) {
+  body {
+    background: coral;
+  }
+
   .header-top {
     padding: 35px 0;
   }
@@ -438,8 +442,16 @@ body {
 .footer__address {
     margin-bottom: 15px;
   }
+
+  .about {
+    padding: 20px 0 50px;
+  }
 }
 @media (max-width: 375px) {
+  body {
+    background: lightsteelblue;
+  }
+
   .header-top {
     padding: 20px 0;
     align-items: center;
@@ -556,6 +568,23 @@ body {
   .footer__subtitle, .footer__link, .footer__address {
     font-size: 20px;
     line-height: 25px;
+    margin-bottom: 20px;
+  }
+
+  .about {
+    padding: 20px 0 30px;
+  }
+  .about__images {
+    width: 350px;
+    height: 400px;
+    margin: 0 auto 45px;
+  }
+  .about__images img {
+    width: 350px;
+    height: 400px;
+  }
+  .about__text {
+    font-size: 20px;
     margin-bottom: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
